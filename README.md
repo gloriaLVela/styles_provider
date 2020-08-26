@@ -5,7 +5,13 @@ We can use the injectFirst boolean prop to add styles that override existing Mat
 
 Example from https://blog.bitsrc.io/4-ways-to-override-material-ui-styles-43aee2348ded
 
+Then the styles in styles.css will take precedent over the built-in Material UI styles as long as it's inside the StyleProvider.
 
+## Pros
+The StyleProvider let us override the styles of the child components of it.
+
+## Cons
+The JSS integration doesn’t seem to be working and there are no examples that show how to use it properly. Therefore, we can only use it to control the priority of the styles from non-JSS sources.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
