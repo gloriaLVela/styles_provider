@@ -3,6 +3,8 @@ The StylesProvider component lets us change how styles are applied to child comp
 
 We can use the injectFirst boolean prop to add styles that override existing Material UI styles. This way, styles we referenced from external CSS files will override Material UI’s.
 
+Example from https://blog.bitsrc.io/4-ways-to-override-material-ui-styles-43aee2348ded
+
 
 
 
