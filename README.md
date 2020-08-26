@@ -1,3 +1,11 @@
+# StylesProvider
+The StylesProvider component lets us change how styles are applied to child components. The options will be available in all child elements of the StylesProvider.
+
+We can use the injectFirst boolean prop to add styles that override existing Material UI styles. This way, styles we referenced from external CSS files will override Material UI’s.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
